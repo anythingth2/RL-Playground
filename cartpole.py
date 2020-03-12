@@ -52,7 +52,7 @@ def update_Q(state, next_state):
     # print(f'update {state} with {value} | {q_table[tuple(state)]}')
 #%%
 
-for i_episode in range(20, 100):
+for i_episode in range( 100):
     observation = env.reset()
     state = encode_state(observation)
     for t in range(1000):
