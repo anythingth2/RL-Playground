@@ -11,7 +11,7 @@ q_shape = (n_level, )*2 + (2,)
 q_table = np.zeros(q_shape)
 discount_factor = 0.9
 lr = 0.9
-env = gym.make('CartPole-v0')
+env = gym.make('CartPole-v1')
 
 
 observation_low = env.observation_space.low.copy()
